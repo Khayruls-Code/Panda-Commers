@@ -1,0 +1,50 @@
+.container{
+    margin-bottom: 100px;
+}
+.banner-bg{
+    background: #fceae8;
+    padding: 20px 40px;
+}
+.price{
+    color: #ff2f81;
+}
+.banner-btn{
+    background: #ff2f81;
+    width: fit-content;
+}
+.cat-3 img,
+.cat-2 img,
+.cat-1 img{
+    width: 100px;
+}
+.cat-1{
+    background: #ffa500;
+}
+.cat-2{
+    background: #da70d6;
+}
+.cat-3{
+    background: #0000ff;
+}
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px 1px rgb(153 153 153 / 18%);
+}
+.card-footer{
+    border: none;
+    background: transparent;
+}
+.subscribe{
+    background: #fceae8;
+}
+@media(max-width:768px){
+    .categories{
+        margin-bottom: 20px;
+    }
+    .card{
+        margin-bottom:30px;
+    }
+    input[type=email]{
+        width: 100% !important;
+    }
+}
